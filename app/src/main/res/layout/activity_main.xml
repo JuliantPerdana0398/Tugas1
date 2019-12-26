@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="1718088@scholar.itn.ac.id"
+                android:text="@string/email"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="+62895335477989"
+                android:text="@string/telephon"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -115,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="Add to group"
+                android:text="@string/tambah_kelompok"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -136,7 +136,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:text="Show all comments"
+                android:text="@string/komen"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -153,6 +153,11 @@
         android:textAlignment="center"
         android:textColor="#fff" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </LinearLayout>
 </LinearLayout>
 
 <!--</androidx.constraintlayout.widget.ConstraintLayout>-->
